@@ -31,7 +31,7 @@ create table study_set_card (
 )
 
 create table study_set (
-	flashcard_id INTEGER generated always as identity primary key,
+	study_set_id INTEGER generated always as identity primary key,
 	name VARCHAR(20) not null,
 	owner_id INTEGER references app_user(user_id)
 );
