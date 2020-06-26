@@ -5,12 +5,10 @@ function returnDataTypeParameter(p) {
 }
 
 // 2
-function returnProduct(...p) {
-    let product = 0;
-    // let product = p * i;
-    // console.log(product);
-    for(i = 0; i < p.length; i++) {
-        product *=p;
+let a = function returnProduct() {
+    let product = 1;
+    for(i = 0; i < arguments.length; i++) {
+        product *=arguments[i];
     }
     return product;
 }
