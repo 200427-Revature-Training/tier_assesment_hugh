@@ -24,7 +24,7 @@ function iterateOverInteger(arr) {
     return sum;
 }
 
-// 4
+// 4 not sure about this one, but I'm submitting what I have
 const sArray = (arr) => {
     let string = arr.toString().split('');
     let array = string.length;
